@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "shared-library",
+    "slug": "shared-library",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
