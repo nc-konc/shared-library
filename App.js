@@ -11,6 +11,15 @@ export default function App() {
   );
 }
 
+const HelloSharedLibrary = () => {
+  console.log("Hello shared-library!!!....")
+  return <View>
+    <Text>Hello shared-library!!!</Text>
+  </View>
+}
+
+export default HelloSharedLibrary
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
