@@ -1,6 +1,6 @@
-import {Text} from "react-native";
 import React from "react";
-{}
+import {Text, StyleSheet} from "react-native";
+
 export const HelloComponent = ({text, outerStyles}) => {
     console.log("Hello shared-library!!!....")
     const styles = StyleSheet.compose(innerStyles.text, outerStyles.text)
