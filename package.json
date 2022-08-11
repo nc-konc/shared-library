@@ -1,8 +1,18 @@
 {
   "name": "shared-library",
-  "version": "1.0.1",
-  "dependencies": {
-    "react": "17.0.2",
-    "react-native": "0.68.2"
-  }
+  "version": "1.0.2",
+  "description": "shared library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nc-konc/shared-library.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Konrad Cendrowski",
+  "license": "MIT"
 }
