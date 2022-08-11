@@ -1,7 +1,7 @@
 import {Text} from "react-native";
 import React from "react";
 
-export const HelloComponent = () => {
+export const HelloComponent = (text) => {
     console.log("Hello shared-library!!!....")
-    return (<Text>Hello shared-library!!!</Text>)
+    return (<Text>{text}</Text>)
 }
